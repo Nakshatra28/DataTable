@@ -1,12 +1,14 @@
-# React + Vite
+📊 React Datatable App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a small project I built using React.js and Tailwind CSS.
+It shows a table of user data where you can:
 
-Currently, two official plugins are available:
+🔍 Search users by name, email, or gender
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+📑 Switch between pages with pagination
 
-## Expanding the ESLint configuration
+⚙️ Choose how many rows to show per page (10, 50, 100, 500)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🎨 Enjoy a clean and modern UI
+
+I made this to practice React hooks, pagination logic, and Tailwind styling. Right now, the data comes from a static file, but later it can be connected to an API for live data.
